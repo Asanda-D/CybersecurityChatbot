@@ -53,12 +53,12 @@ This chatbot was developed as part of my **Cybersecurity Awareness Portfolio of 
 
 ## Folder Structure
 
-Cyberlock-Assistant/
-├── Cassidy/
-│ └── greeting.wav # Voice greeting played at launch
-├── CyberBot.cs # Main chatbot logic
-├── Program.cs # Entry point
-├── README.md # Project overview (this file)
+CybersecurityChatbot/
+- Cassidy/
+  - greeting.wav # Voice greeting played at launch
+- CyberBot.cs # Main chatbot logic
+- Program.cs # Entry point
+- README.md # Project overview (this file)
 
 ---
 
@@ -75,11 +75,11 @@ Feel free to ask me anything about staying safe online :)
 You: what is phishing?
 Cyberlock is typing...
 Phishing is when scammers trick you into giving personal info by pretending to be someone you trust, like your bank.
-General Tip: Watch out for fake giveaways on social media.
+General Tip: Watch out for fake giveaways on social media.```
 
 ---
 
-**## License**
+## License
 This project is for educational purposes.
 
 
