@@ -75,11 +75,12 @@ Feel free to ask me anything about staying safe online :)
 You: what is phishing?
 Cyberlock is typing...
 Phishing is when scammers trick you into giving personal info by pretending to be someone you trust, like your bank.
-General Tip: Watch out for fake giveaways on social media.```
+General Tip: Watch out for fake giveaways on social media.
+```
 
 ---
 
 ## License
-This project is for educational purposes.
 
+This project is for educational purposes.
 
