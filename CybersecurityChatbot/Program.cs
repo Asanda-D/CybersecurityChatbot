@@ -1,0 +1,50 @@
+﻿using System.Media;
+
+namespace CybersecurityChatbot
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            
+
+            // Display ASCII logo
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine
+                (@"
+                   ____            _                   _                   _           
+                  / ___|___  _ __ | |_ _   _ _ __ ___ (_)_ __   __ _    __| | ___ _ __ 
+                 | |   / _ \| '_ \| __| | | | '_ ` _ \| | '_ \ / _` |  / _` |/ _ \ '__|
+                 | |__| (_) | | | | |_| |_| | | | | | | | | | | (_| | | (_| |  __/ |   
+                  \____\___/|_| |_|\__|\__,_|_| |_| |_|_|_| |_|\__, |  \__,_|\___|_|   
+                                                               |___/                  
+                ");
+            Console.ResetColor();
+
+            PlayGreetingAudio();
+
+            // Start the bot
+            CyberBot bot = new CyberBot();
+            bot.StartChat();
+        }
+
+        static void PlayGreetingAudio()
+        {
+            try
+            {
+                string audioPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Cassidy", "greeting.wav");
+                using (SoundPlayer player = new SoundPlayer(audioPath))
+                {
+                    player.Load();
+                    player.PlaySync(); // Wait for audio to finish before continuing
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error playing audio: " + ex.Message);
+            }
+
+        }
+    }
+}
