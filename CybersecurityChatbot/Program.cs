@@ -7,7 +7,7 @@ namespace CybersecurityChatbot
         static void Main(string[] args)
         {
 
-            
+
 
             // Display ASCII logo
             Console.ForegroundColor = ConsoleColor.Green;
