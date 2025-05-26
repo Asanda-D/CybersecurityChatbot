@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include=".github\workflows\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include=".github\workflows\dotnet-format.yml" />
   </ItemGroup>
 
