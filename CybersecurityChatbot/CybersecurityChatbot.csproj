@@ -21,4 +21,12 @@
     <PackageReference Include="System.Windows.Extensions" Version="9.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include=".GitHub\workflows\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".github\workflows\dotnet-format.yml" />
+  </ItemGroup>
+
 </Project>
