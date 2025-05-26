@@ -33,12 +33,14 @@ namespace CybersecurityChatbot
         {
             try
             {
+#pragma warning disable CA1416
                 string audioPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Cassidy", "greeting.wav");
                 using (SoundPlayer player = new SoundPlayer(audioPath))
                 {
                     player.Load();
                     player.PlaySync(); // Wait for audio to finish before continuing
                 }
+#pragma warning restore CA1416
             }
             catch (Exception ex)
             {
