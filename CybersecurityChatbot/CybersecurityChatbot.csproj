@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include=".github\workflows\dotnet-format.yml" />
+    <None Include=".github\workflows\dotnet.yml" />
   </ItemGroup>
 
 </Project>
